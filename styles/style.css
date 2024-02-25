@@ -128,5 +128,13 @@ footer p {
   .social-icon.linkedin {
     color: #081267; /* Change this to your desired color */
   }
+
+  .fa {
+    color: blue;
+  }
+  
+  .fa:hover {
+    color: red;
+  }
   
   
