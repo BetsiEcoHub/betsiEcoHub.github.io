@@ -89,23 +89,7 @@
 </div>
 
 <script>
-// Function to fetch data from the server
-function fetchData() {
-    fetch('https://api.covid19api.com/') // Example API endpoint
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('Network response was not ok');
-            }
-            return response.json(); // Parse the JSON data
-        })
-        .then(data => {
-            // Process the fetched data
-            displayData(data);
-        })
-        .catch(error => {
-            console.error('There was a problem with the fetch operation:', error);
-        });
-}
+
 
 // Function to display fetched data on the HTML page
 function displayData(data) {
@@ -157,7 +141,7 @@ window.onload = fetchData;
 <footer>
         <div class="container">
     
-            <p>Contact: mdraya3@gmail.com | Follow Us on
+            <p>Contact: mnegash@bu.edu | Follow Us on
                 <br>
             
              <a href="https://betsimart.github.io/">website</a>
@@ -168,7 +152,7 @@ window.onload = fetchData;
              <ul class="social-icons">
                
                 <a href="https://www.facebook.com/marketplace/profile/100002059388873/">
-                    <span class="fa fa-facebook"></span>
+                    <span class="fab fa-facebook"></span>
                 </a>
                 <a href="https://www.linkedin.com/company/bet-ebusiness/?viewAsMember=true" target="_blank" rel="noopener noreferrer" class="social-icon linkedin">
                     <span class="fab fa-linkedin"></span>
