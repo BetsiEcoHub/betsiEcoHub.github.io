@@ -15,12 +15,18 @@ async function sendMessage() {
     userInput.value = '';
 }
 
+
 function appendMessage(sender, message) {
-    const chatLog = document.getElementById('chat-log'); // Initialize chatLog inside the function
+    const chatLog = document.getElementById('chat-log');
+    if (!chatLog) {
+        console.error("Chat log element not found.");
+        return; // Exit the function if chat log element is not found
+    }
     const messageElement = document.createElement('div');
     messageElement.classList.add('message', sender);
     messageElement.innerText = message;
     chatLog.appendChild(messageElement);
     chatLog.scrollTop = chatLog.scrollHeight; // Scroll to bottom
 }
+
 
