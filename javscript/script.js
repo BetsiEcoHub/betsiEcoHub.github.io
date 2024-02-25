@@ -1,20 +1,8 @@
-const chatClient = new OpenAIChatAPIClient({ apiKey: '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' });
+const chatClient = new OpenAIChatAPIClient({ apiKey: 'YOUR_API_KEY' });
 const chatLog = document.getElementById('chat-log');
-//const userInput = document.getElementById('user-input');
-const userInput = document.getElementById('user-input'); // Initialize userInput inside the function
-    const userMessage = userInput.value;
-    appendMessage('user', userMessage);
-
-    // Send user message to ChatGPT
-    const response = await chatClient.send(userMessage);
-    const botMessage = response.data.choices[0].text.trim();
-    appendMessage('bot', botMessage);
-    
-    // Clear user input
-    userInput.value = '';
-
 
 async function sendMessage() {
+    const userInput = document.getElementById('user-input');
     const userMessage = userInput.value;
     appendMessage('user', userMessage);
 
@@ -34,5 +22,3 @@ function appendMessage(sender, message) {
     chatLog.appendChild(messageElement);
     chatLog.scrollTop = chatLog.scrollHeight; // Scroll to bottom
 }
-
-
