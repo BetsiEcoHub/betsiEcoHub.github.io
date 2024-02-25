@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Online Retail Business</title>
+    <script src="https://www.paypal.com/sdk/js?client-id=YOUR_CLIENT_ID"></script>
+    <meta name="google-site-verification" content="AY4sqpV0JbgewjIGE6xVWLQoLN_K0GZU3-hYneq7WOM" />
+
+    <link rel="icon" href="images/FibIcon.JPEG" type="FibIcon">
+    <meta name="google-site-verification" content="JdTYaH25uIa5yTr72x6aVBePLuMniPWQ3-sXunufJk8" />
+    <!-- Example of meta tags for SEO -->
+<meta name="description" content="Description of your website">
+<meta name="keywords" content="keywords, separated, by, commas">
+<!-- Example of using optimized images -->
+<img src="image.jpg" alt="Description of the image" loading="lazy" width="500" height="300">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+
+    
+ 
+</head>
+<body>
+    <header>
+        
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.jpg" alt="logo" class="logo-img">
+            </div>
+<br>
+            <h1>Betsi Mart</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+
+    <div class="container">
+        <h2>Welcome to Your Online Store</h2>
+        <p>Discover the latest trends and shop with ease.</p>
+        <br>
+        <a href="#products" class="btn">Shop Now</a>
+    </div>
+</section>
+<section id="products">
+    <div class="container">
+      
+        <section class="featured">
+            <div class="container">
+                <h2>Featured Products</h2>
+                <p>1. kids</p> 
+                <p>2. men</p>
+                <p>3. women</p> 
+                <p>4. fashion</p> 
+            </div>
+        </section>
+
+        <div class="product">
+            <img src="product1.jpg" alt="Product 1">
+            <h3>Product 1</h3>
+            <p>Description of product 1.</p>
+            <span>$19.99</span>
+        </div>
+        <div class="product">
+            <img src="product2.jpg" alt="Product 2">
+            <br>
+            <h3>Product 2</h3>
+            <p>Description of product 2.</p>
+            <span>$24.99</span>
+        </div>
+        <!-- Add more products as needed -->
+    </div>
+</section>
+
+<div id="data-container">
+    <!-- Data will be displayed here -->
+</div>
+
+<script>
+// Function to fetch data from the server
+function fetchData() {
+    fetch('https://api.covid19api.com/') // Example API endpoint
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json(); // Parse the JSON data
+        })
+        .then(data => {
+            // Process the fetched data
+            displayData(data);
+        })
+        .catch(error => {
+            console.error('There was a problem with the fetch operation:', error);
+        });
+}
+
+// Function to display fetched data on the HTML page
+function displayData(data) {
+    const container = document.getElementById('data-container');
+    if (!container) return;
+
+    // Create HTML elements to display the data
+    const ul = document.createElement('ul');
+    data.forEach(item => {
+        const li = document.createElement('li');
+        li.textContent = `${item.id}: ${item.title}`;
+        ul.appendChild(li);
+    });
+
+    // Append the list to the container
+    container.appendChild(ul);
+}
+
+// Call the fetchData function when the page loads
+window.onload = fetchData;
+</script>
+
+
+<section id="about">
+    <div class="container">
+        <h2>About Us</h2>
+        <p>Welcome to Betsi Mart, your ultimate online destination for kids, men, women, fashion clothes.
+            At Betsi Mart, we're passionate about fast delivery, style, quality, convenience, and
+            we're dedicated to providing our customers with an exceptional shopping experience, top-notch products,
+            unbeatable value. With a keen eye for trends, craftsmanship, sustainability], we curate a handpicked selection
+            of fashion-forward apparel, eco-friendly home goods, cutting-edge gadgets. Our mission is to empower your style,
+            simplify your life, elevate your home. Join us on this journey and discover the perfect blend of style and
+            substance, quality and affordability, innovation and tradition.</p>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or inquiries, please feel free to contact us:</p>
+        <ul>
+            <li>Email: mnegash@bu.edu</li>
+            <li>Phone: 617-318-7005</li>
+            <li>Address: Austin, TX, US</li>
+        </ul>
+    </div>
+</section>
+
+
+
+<footer>
+        <div class="container">
+            <p>&copy; 2024 Molla Negash | Designed by Betselot Online Business</p>
+            <p>Contact: mdraya3@gmail.com | Follow Us on <a href="https://www.linkedin.com/company/bet-ebusiness/?viewAsMember=true" target="_blank">linkedin</a></p>
+             <a href="https://www.yourdomain.com">Visit our website</a>
+             <!-- Example of social media icons -->
+<ul class="social-icons">
+    <li><a href="https://www.facebook.com/marketplace/profile/100002059388873/"><i class="fab fa-facebook"></i></a></li>
+    <!-- Telegram icon with a link to your profile -->
+<a href="https://t.me/BetselotOnlineRetailHub" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-telegram"></i>
+  </a>
+   <!-- <li><a href="https://twitter.com/youraccount"><i class="fab fa-twitter"></i></a></li>-->
+    <!--<li><a href="https://www.instagram.com/yourprofile"><i class="fab fa-instagram"></i></a></li>-->
+  </ul>
+  
+
+        </div>
+    </footer>
+
+    
+</body>
+</html>

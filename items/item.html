@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Code </title>
+    <style>
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        code {
+            display: block;
+            white-space: pre-wrap;
+            font-family: "Courier New", Courier, monospace;
+        }
+    </style>
+</head>
+<body>
+    <pre><code class="java">
+
+       
+        import java.util.Scanner;
+        import java.util.Arrays;
+        
+        public class Main
+        {
+            public static void main(String[] args) {
+                System.out.println("Welcome to Online IDE!! Happy Coding :)");
+                Scanner scan = new Scanner(System.in);
+                System.out.println("enter 7 temps");
+                double tArr[]=new double[7];
+               
+                double sum=0;
+                for(int count=0;count<7;count++){
+                     double temp = scan.nextInt();
+                      tArr[count]= temp;
+                     sum+=temp;
+                }
+                System.out.println("list of temps");
+              double maxT=tArr[0];
+              
+                for(double d: tArr){
+                    System.out.print(d + " ");
+                    
+                }
+                
+                for(int i=0;i<tArr.length;i++){
+                  
+                  if(maxT<tArr[i]){
+                      maxT=tArr[i];
+                      
+                  }
+                  
+              }
+              System.out.println();
+                System.out.println("Max Temprature"+ " "+ maxT);
+                double average = sum/7;
+                System.out.println();
+                System.out.println("average Tem"+ " "+average);
+                 
+            
+            }
+        }
+            
+
+</code></pre>
+
+
+</body>
+</html>
