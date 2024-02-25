@@ -1,4 +1,4 @@
-const chatClient = new OpenAIChatAPIClient({ apiKey: 'YOUR_API_KEY' });
+const chatClient = new OpenAIChatAPIClient({ apiKey: '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' });
 const chatLog = document.getElementById('chat-log');
 
 async function sendMessage() {
@@ -28,5 +28,7 @@ function appendMessage(sender, message) {
     chatLog.appendChild(messageElement);
     chatLog.scrollTop = chatLog.scrollHeight; // Scroll to bottom
 }
+
+
 
 
