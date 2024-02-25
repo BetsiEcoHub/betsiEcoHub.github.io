@@ -16,9 +16,11 @@ async function sendMessage() {
 }
 
 function appendMessage(sender, message) {
+    const chatLog = document.getElementById('chat-log'); // Initialize chatLog inside the function
     const messageElement = document.createElement('div');
     messageElement.classList.add('message', sender);
     messageElement.innerText = message;
     chatLog.appendChild(messageElement);
     chatLog.scrollTop = chatLog.scrollHeight; // Scroll to bottom
 }
+
