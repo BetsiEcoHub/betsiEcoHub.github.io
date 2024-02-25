@@ -17,6 +17,7 @@
 <!--<img src="image.jpg" alt="Description of the image" loading="lazy" width="500" height="300">-->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<script src="https://cdn.jsdelivr.net/npm/@openai/chat-client@0.4.1/dist/index.min.js"></script>
 
 
 
@@ -112,6 +113,15 @@ function displayData(data) {
 window.onload = fetchData;
 </script>
 
+<div class="chat-log" id="chat-log">
+    <!-- Chat messages will be inserted here -->
+    <h1> hello! do you need help?</h1>
+</div>
+<input type="text" id="user-input" placeholder="Type your message...">
+<button onclick="sendMessage()">Send</button>
+</div>
+
+
 
 <section id="about">
     <div class="container">
@@ -148,13 +158,7 @@ window.onload = fetchData;
             </p>
             
             <div class="chat-container">
-                <div class="chat-log" id="chat-log">
-                    <!-- Chat messages will be inserted here -->
-                    <h1> hello! do you need help?</h1>
-                </div>
-                <input type="text" id="user-input" placeholder="Type your message...">
-                <button onclick="sendMessage()">Send</button>
-            </div>
+          
             <script src="https://cdn.jsdelivr.net/npm/@openai/chat-client@0.4.1/dist/index.min.js"></script>
             <script src="script.js"></script>
 
