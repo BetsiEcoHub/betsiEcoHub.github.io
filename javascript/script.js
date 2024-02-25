@@ -10,6 +10,14 @@ async function sendMessage() {
     const response = await chatClient.send(userMessage);
     const botMessage = response.data.choices[0].text.trim();
     appendMessage('bot', botMessage);
+    try {
+        const response = await chatClient.send(userMessage);
+        const botMessage = response.data.choices[0].text.trim();
+        appendMessage('bot', botMessage);
+    } catch (error) {
+        console.error('Error sending message:', error);
+    }
+
     
     // Clear user input
     userInput.value = '';
@@ -28,6 +36,8 @@ function appendMessage(sender, message) {
     chatLog.appendChild(messageElement);
     chatLog.scrollTop = chatLog.scrollHeight; // Scroll to bottom
 }
+
+
 
 
 
