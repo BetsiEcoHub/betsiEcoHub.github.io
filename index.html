@@ -147,6 +147,17 @@ window.onload = fetchData;
              <a href="https://betsimart.github.io/">website</a>
             </p>
             
+            <div class="chat-container">
+                <div class="chat-log" id="chat-log">
+                    <!-- Chat messages will be inserted here -->
+                    <h1> hello! do you need help?</h1>
+                </div>
+                <input type="text" id="user-input" placeholder="Type your message...">
+                <button onclick="sendMessage()">Send</button>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/@openai/chat-client@0.4.1/dist/index.min.js"></script>
+            <script src="script.js"></script>
+
              <!-- Example of social media icons -->
 
              <ul class="social-icons">

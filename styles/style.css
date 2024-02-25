@@ -137,6 +137,36 @@ footer p {
     color: red;
   }
 
+  .chat-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.chat-log {
+    max-height: 300px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.message {
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.user {
+    background-color: #f0f0f0;
+}
+
+.bot {
+    background-color: #d9edff;
+}
+
+
   
   
   
