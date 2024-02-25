@@ -113,4 +113,20 @@ footer p {
   @media only screen and (min-width: 1024px) {
     /* CSS rules for larger screens */
   }
+
+  /* CSS for Telegram icon */
+.social-icon.telegram {
+    color: #0088cc; /* Change this to your desired color */
+  }
+  
+  /* CSS for Facebook icon */
+  .social-icon.facebook {
+    color: #3b5998; /* Change this to your desired color */
+  }
+  
+  /* CSS for LinkedIn icon */
+  .social-icon.linkedin {
+    color: #0077b5; /* Change this to your desired color */
+  }
+  
   
