@@ -126,7 +126,7 @@ footer p {
   
   /* CSS for LinkedIn icon */
   .social-icon.linkedin {
-    color: #082e67; /* Change this to your desired color */
+    color: #081e67; /* Change this to your desired color */
   }
 
   .fa {
@@ -135,6 +135,12 @@ footer p {
   
   .fa:hover {
     color: red;
+  }
+
+  a:link {
+    color: rgb(6, 0, 128);
+    background-color: transparent;
+    text-decoration: none;
   }
   
   
