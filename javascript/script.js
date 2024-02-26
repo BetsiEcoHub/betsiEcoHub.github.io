@@ -1,27 +1,24 @@
 const chatClient = new OpenAIChatAPIClient({ apiKey: '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' });
 const chatLog = document.getElementById('chat-log');
 
-async function sendMessage() {
-    const userInput = document.getElementById('user-input');
-    const userMessage = userInput.value;
-    appendMessage('user', userMessage);
+function sendMessage() {
+    const userInput = document.getElementById('user-input').value;
+    const chatLog = document.getElementById('chat-log');
 
-    // Send user message to ChatGPT
-    const response = await chatClient.send(userMessage);
-    const botMessage = response.data.choices[0].text.trim();
-    appendMessage('bot', botMessage);
-    try {
-        const response = await chatClient.send(userMessage);
-        const botMessage = response.data.choices[0].text.trim();
-        appendMessage('bot', botMessage);
-    } catch (error) {
-        console.error('Error sending message:', error);
-    }
+    // Append user message to chat log
+    const userMessage = document.createElement('div');
+    userMessage.textContent = userInput;
+    chatLog.appendChild(userMessage);
 
-    
-    // Clear user input
-    userInput.value = '';
+    // Send user message to ChatGPT and append response to chat log
+    chatClient.send(userInput).then(response => {
+        const botMessage = document.createElement('div');
+        botMessage.textContent = response;
+        chatLog.appendChild(botMessage);
+    });
 }
+
+
 
 function appendMessage(sender, message) {
     const chatLog = document.getElementById('chat-log');
@@ -35,6 +32,7 @@ function appendMessage(sender, message) {
     chatLog.appendChild(messageElement);
     chatLog.scrollTop = chatLog.scrollHeight; // Scroll to bottom
 }
+
 
 
 
