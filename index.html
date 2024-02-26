@@ -21,13 +21,7 @@
        <!-- Your head content goes here -->
        <script src="https://cdn.jsdelivr.net/npm/@openai/chat-client@0.4.1/dist/index.min.js"></script>
        <script src="javascript/script.js"></script>
-       <div class="chat-log" id="chat-log">
-        <!-- Chat messages will be inserted here -->
-    </div>
-    <div class="chat-container">
-        <input type="text" id="user-input" placeholder="Type your message...">
-        <button onclick="sendMessage()">Send</button>
-    </div>
+   
 </head>
 <body>
     <header>
@@ -152,5 +146,14 @@
             <p>&copy; 2024 Betsi Mart</p>
         </div>
     </footer>
+
+    <div class="chat-log" id="chat-log">
+        <!-- Chat messages will be inserted here -->
+    </div>
+    <div class="chat-container">
+        <input type="text" id="user-input" placeholder="Type your message...">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+    
 </body>
 </html>
