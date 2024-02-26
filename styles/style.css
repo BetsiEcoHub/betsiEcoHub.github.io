@@ -187,7 +187,7 @@ footer p {
 
 /* CSS styles for the user input field */
 #user-input {
-    width: calc(100% - 85px); /* Adjust width to fit the container */
+    width: calc(50% - 50px); /* Adjust width to fit the container */
     margin-right: 10px; /* Add spacing between input field and button */
     padding: 5px; /* Add padding */
     border: 1px solid #cccccc; /* Add a border */
