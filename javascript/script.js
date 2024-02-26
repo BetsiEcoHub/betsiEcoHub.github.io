@@ -1,7 +1,7 @@
 // script.js
 
 // Initialize chatClient variable
-const chatClient = new OpenAIChatAPIClient({ apiKey: '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' });
+
 
 // Define sendMessage function
 function sendMessage() {
@@ -15,6 +15,8 @@ function sendMessage() {
         appendMessage('bot', response);
     });
 }
+
+const chatClient = new OpenAIChatAPIClient({ apiKey: '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' });
 
 // Define appendMessage function
 function appendMessage(sender, message) {
