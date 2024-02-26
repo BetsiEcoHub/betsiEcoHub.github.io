@@ -23,7 +23,6 @@ async function sendMessage() {
     userInput.value = '';
 }
 
-
 function appendMessage(sender, message) {
     const chatLog = document.getElementById('chat-log');
     if (!chatLog) {
