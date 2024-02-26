@@ -1,4 +1,4 @@
-const chatClient = new OpenAIChatAPIClient({ apiKey: 'xxx' });
+const chatClient = new OpenAIChatAPIClient({ apiKey: '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' });
 
 function sendMessage() {
     const userInput = document.getElementById('user-input').value;
