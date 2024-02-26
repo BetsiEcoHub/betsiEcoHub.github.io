@@ -11,8 +11,9 @@ function sendMessage() {
     appendMessage('user', userInput);
 
     // Send user message to ChatGPT and append response to chat log
-    chatClient.send(userInput).then(response => {
+    const rep = chatClient.send(userInput).then(response => {
         appendMessage('bot', response);
+        return rep;
     });
 }
 
