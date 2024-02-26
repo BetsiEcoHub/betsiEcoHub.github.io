@@ -121,7 +121,7 @@ footer p {
   
   /* CSS for Facebook icon */
   .social-icon.facebook {
-    color: #413b98; /* Change this to your desired color */
+    color: #3b4498; /* Change this to your desired color */
   }
   
   /* CSS for LinkedIn icon */
@@ -233,7 +233,7 @@ button {
 
 .social-icon a {
     /*color: #fff;*/
-    font-size: 60px;
+    font-size: 100px;
 }
 
 /* CSS for chat feature */
