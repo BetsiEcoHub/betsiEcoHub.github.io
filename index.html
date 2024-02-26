@@ -4,12 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css" type="text/css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <title>Online Retail Business</title>
     <script src="https://www.paypal.com/sdk/js?client-id=YOUR_CLIENT_ID"></script>
     <meta name="google-site-verification" content="AY4sqpV0JbgewjIGE6xVWLQoLN_K0GZU3-hYneq7WOM">
     <link rel="icon" href="images/FibIcon.JPEG">
     <meta name="google-site-verification" content="JdTYaH25uIa5yTr72x6aVBePLuMniPWQ3-sXunufJk8">
+    <!-- Example of meta tags for SEO -->
+    <meta name="description" content="Description of your website">
+    <meta name="keywords" content="keywords, separated, by, commas">
+    <!-- Example of using optimized images -->
+    <!--<img src="image.jpg" alt="Description of the image" loading="lazy" width="500" height="300">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/@openai/chat-client@0.4.1/dist/index.min.js"></script>
 </head>
 <body>
@@ -39,7 +44,64 @@
         <a href="#products" class="btn">Shop Now</a>
     </div>
 
-    <!-- Other sections... -->
+    <section id="products">
+        <div class="container">
+            <section class="featured">
+                <div class="container">
+                    <h2>Featured Products</h2>
+                    <p>1. kids</p> 
+                    <p>2. men</p>
+                    <p>3. women</p> 
+                    <p>4. fashion</p> 
+                </div>
+            </section>
+
+            <div class="product">
+                <img src="product1.jpg" alt="Product 1">
+                <h3>Product 1</h3>
+                <p>Description of product 1.</p>
+                <span>$19.99</span>
+            </div>
+            <div class="product">
+                <img src="product2.jpg" alt="Product 2">
+                <br>
+                <h3>Product 2</h3>
+                <p>Description of product 2.</p>
+                <span>$24.99</span>
+            </div>
+            <!-- Add more products as needed -->
+        </div>
+    </section>
+
+    <div id="data-container">
+        <!-- Data will be displayed here -->
+    </div>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Welcome to Betsi Mart, your ultimate online destination for kids, men, women, fashion clothes.
+                At Betsi Mart, we're passionate about fast delivery, style, quality, convenience, and
+                we're dedicated to providing our customers with an exceptional shopping experience, top-notch products,
+                unbeatable value. With a keen eye for trends, craftsmanship, sustainability], we curate a handpicked selection
+                of fashion-forward apparel, eco-friendly home goods, cutting-edge gadgets. Our mission is to empower your style,
+                simplify your life, elevate your home. Join us on this journey and discover the perfect blend of style and
+                substance, quality and affordability, innovation and tradition.
+            </p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or inquiries, please feel free to contact us:</p>
+            <ul>
+                <li>Email: mnegash@bu.edu</li>
+                <li>Phone: 617-318-7005</li>
+                <li>Address: Austin, TX, US</li>
+            </ul>
+        </div>
+    </section>
 
     <footer>
         <div class="container">
@@ -62,23 +124,26 @@
                         <i class="fab fa-telegram"></i>
                     </a>
                 </li>
+                
+                
                 <li>
                     <a href="mailto:mnegash@bu.edu" aria-label="Email">
                         <i class="fas fa-envelope-square"></i>
                     </a>
                 </li>
             </ul>
-
             <p>&copy; 2024 Betsi Mart</p>
         </div>
     </footer>
 
-    <!-- Chat feature -->
+
     <div class="chat-log" id="chat-log">
         <!-- Chat messages will be inserted here -->
     </div>
     <div class="chat-container">
         <input type="text" id="user-input" placeholder="Type your message...">
+        <script src="https://cdn.jsdelivr.net/npm/@openai/chat-client@0.4.1/dist/index.min.js"></script>
+        <script src="javascript/script.js"></script>
         <button onclick="sendMessage()">Send</button>
     </div>
 </body>
