@@ -94,7 +94,7 @@ footer p {
 
 
 .logo-img {
-    max-width: 4000px; /* Set the maximum width of the logo */
+    max-width: 400px; /* Set the maximum width of the logo */
     height: auto; /* Allow the height to adjust proportionally */
 }
 .profile-separator__line {
@@ -171,7 +171,7 @@ footer p {
 
 /* CSS styles for the chat log area */
 .chat-log {
-    height: 30px; /* Adjust the height as needed */
+    height: 100px; /* Adjust the height as needed */
     overflow-y: auto; /* Enable vertical scrolling */
     background-color: #ffffff; /* White background color */
     border: 1px solid #cccccc; /* Add a border */
@@ -231,7 +231,7 @@ button {
 
 .social-icon a {
     /*color: #fff;*/
-    font-size: 300px;
+    font-size: 100px;
 }
 
 /* CSS for chat feature */
