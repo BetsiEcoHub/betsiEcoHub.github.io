@@ -6,7 +6,6 @@ const chatClient = new OpenAIChatAPIClient({ apiKey: 'sk-WBSltShp8Nhoy13XIjeoT3B
 // Define sendMessage function
 function sendMessage() {
     const userInput = document.getElementById('user-input').value;
-    const chatLog = document.getElementById('chat-log');
 
     // Append user message to chat log
     appendMessage('user', userInput);
