@@ -129,9 +129,7 @@ footer p {
     color: #082e67; /* Change this to your desired color */
   }
 
-  .fa {
-    color: blue;
-  }
+
   
   .fa:hover {
     color: red;
