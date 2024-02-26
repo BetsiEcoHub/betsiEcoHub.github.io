@@ -94,7 +94,7 @@ footer p {
 
 
 .logo-img {
-    max-width: 400px; /* Set the maximum width of the logo */
+    max-width: 4000px; /* Set the maximum width of the logo */
     height: auto; /* Allow the height to adjust proportionally */
 }
 .profile-separator__line {
@@ -231,7 +231,7 @@ button {
 
 .social-icon a {
     /*color: #fff;*/
-    font-size: 100px;
+    font-size: 300px;
 }
 
 /* CSS for chat feature */
