@@ -109,3 +109,22 @@ footer {
 .social-icon.email a {
     color: #681da8; /* Set the color for Email */
 }
+
+/* Footer styling */
+footer {
+    background: #333;
+    color: #ffffff;
+    text-align: center;
+    position: relative; /* Add position relative */
+}
+
+/* Chat bot styling */
+.chat-container {
+    position: absolute;
+    bottom: 10px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
