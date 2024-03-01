@@ -90,24 +90,31 @@ footer {
 
 /* Facebook icon */
 .social-icon.facebook a {
-    color: #385898; /* Set the color for Facebook */
+     /* Set the color for Facebook */
+     background-color: #000fb1;
+     font: white;
     
 }
 
 /* LinkedIn icon */
 .social-icon.linkedin a {
-    color: #0073b1; /* Set the color for LinkedIn */
+   /* Set the color for LinkedIn */
+    background-color: #0073b1;
+    font: white;
     
 }
 
 /* Telegram icon */
 .social-icon.telegram a {
-    color: #0088cc;; /* Set the color for Telegram */
+    /* Set the color for Telegram */
+    background-color: #0073b1;
+    font: white;
 }
 
 /* Email icon */
 .social-icon.email a {
-    color: #681da8; /* Set the color for Email */
+    color: #cd623b; /* Set the color for Email */
+    background-color: white;
 }
 
 /* Footer styling */
@@ -120,7 +127,7 @@ footer {
 
 /* Chat bot styling */
 .chat-container {
-    position: absolute;
+    position: center;
     bottom: 10px; /* Adjust as needed */
     left: 50%;
     transform: translateX(-50%);
