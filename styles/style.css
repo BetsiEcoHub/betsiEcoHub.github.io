@@ -91,7 +91,7 @@ footer {
 /* Facebook icon */
 .social-icon.facebook a {
      /* Set the color for Facebook */
-     background-color: #000fb1;
+     background-color: #0073b1;
      font: white;
     
 }
@@ -127,7 +127,7 @@ footer {
 
 /* Chat bot styling */
 .chat-container {
-    position: center;
+    position: absolute;
     bottom: 10px; /* Adjust as needed */
     left: 50%;
     transform: translateX(-50%);
