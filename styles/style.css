@@ -90,20 +90,22 @@ footer {
 
 /* Facebook icon */
 .social-icon.facebook a {
-    color: #3b5998; /* Set the color for Facebook */
+    color: #385898; /* Set the color for Facebook */
+    
 }
 
 /* LinkedIn icon */
 .social-icon.linkedin a {
-    color: #0077b5; /* Set the color for LinkedIn */
+    color: #0073b1; /* Set the color for LinkedIn */
+    
 }
 
 /* Telegram icon */
 .social-icon.telegram a {
-    color: #0088cc; /* Set the color for Telegram */
+    color: #0088cc;; /* Set the color for Telegram */
 }
 
 /* Email icon */
 .social-icon.email a {
-    color: #ffffff; /* Set the color for Email */
+    color: #681da8; /* Set the color for Email */
 }
