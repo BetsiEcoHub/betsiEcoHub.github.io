@@ -307,21 +307,10 @@ footer {
     list-style-type: none;
     margin: 0;
     padding: 20px 0;
+    background-color: #333;
 }
 
-.nav li {
-    display: inline;
-}
 
-.nav li a {
-    color: rgb(11, 10, 10)
-    display: inline;
-    font-family: 'Raleway', sans-serif; /* Example font */
-    font-weight: 600; /* Example font weight */
-    font-size: 16px; /* Adjust the font size as needed */
-    text-transform: uppercase;
-    margin-right: 20px; /* Add margin between navigation items */
-}
 
 /* Your other CSS styles */
 /* Your existing CSS */
