@@ -24,9 +24,7 @@ header {
     text-align: center;
 }
 
-header h1 {
-    color: #333;
-}
+
 
 /* Navigation styling */
 nav ul {
@@ -109,6 +107,7 @@ footer {
 .social-icon.telegram a {
     /* Set the color for Telegram */
     background-color: #0073b1;
+    
     color: white;
 }
 
@@ -267,9 +266,7 @@ footer {
     height: 800px;
   }
   
-  .header {
-    background-color: #333;
-  }
+
   
   .nav {
     list-style-type: none;
