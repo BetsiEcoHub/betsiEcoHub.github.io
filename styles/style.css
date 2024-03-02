@@ -147,7 +147,7 @@ footer {
     opacity: 0.7;
   }
 
-  {box-sizing: border-box;}
+ 
 
 /* Button used to open the chat form - fixed at the bottom of the page */
 .open-button {
@@ -238,8 +238,8 @@ footer {
   /* Facebook */
 
   
-   /* Facebook */
+   /* Facebook 
    .fa-facebook {
     background: #3b4698;
     color: rgb(255, 255, 255);
-  }
+  }*/
