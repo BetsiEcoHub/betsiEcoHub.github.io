@@ -324,3 +324,29 @@ footer {
 }
 
 /* Your other CSS styles */
+/* Your existing CSS */
+
+.container {
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Distribute items evenly along the main axis */
+    align-items: center; /* Align items vertically */
+}
+
+.logo {
+    /* Your logo styles */
+}
+
+.nav {
+    /* Your navigation styles */
+}
+
+.search-box {
+    /* Adjust search box styles */
+    margin-left: auto; /* Push search box to the right by taking up all available space */
+}
+
+/* Additional styles for the search input and button if needed */
+.search-box input[type="text"],
+.search-box button {
+    /* Adjust input and button styles */
+}
