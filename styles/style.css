@@ -307,10 +307,21 @@ footer {
     list-style-type: none;
     margin: 0;
     padding: 20px 0;
-    background-color: #000000;
 }
 
+.nav li {
+    display: inline;
+}
 
+.nav li a {
+    color: #fff;
+    display: inline;
+    font-family: 'Raleway', sans-serif; /* Example font */
+    font-weight: 600; /* Example font weight */
+    font-size: 16px; /* Adjust the font size as needed */
+    text-transform: uppercase;
+    margin-right: 20px; /* Add margin between navigation items */
+}
 
 /* Your other CSS styles */
 /* Your existing CSS */
@@ -321,7 +332,13 @@ footer {
     align-items: center; /* Align items vertically */
 }
 
+.logo {
+    /* Your logo styles */
+}
 
+.nav {
+    /* Your navigation styles */
+}
 
 .search-box {
     /* Adjust search box styles */
