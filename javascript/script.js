@@ -42,6 +42,5 @@ function openForm() {
   
   function closeForm() {
     document.getElementById("myForm").style.display = "none";
-  }<div class="logo">
-  <img src="images/logo.jpg" alt="logo" class="logo-img">
-</div>
+  }
+
