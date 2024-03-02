@@ -236,13 +236,10 @@ footer {
   /* Set a specific color for each brand */
   
   /* Facebook */
-  .fa-facebook {
-    background: #3B5998;
-    color: white;
-  }
+
   
-  /* Twitter */
-  .fa-twitter {
-    background: #55ACEE;
-    color: white;
+   /* Facebook */
+   .fa-facebook {
+    background: #3b4698;
+    color: rgb(255, 255, 255);
   }
