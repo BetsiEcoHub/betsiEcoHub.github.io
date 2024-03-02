@@ -284,3 +284,10 @@ footer {
     margin-right: 25px;
     text-transform: uppercase;
   }
+  
+
+
+
+.nav li{
+   display: inline;
+}
