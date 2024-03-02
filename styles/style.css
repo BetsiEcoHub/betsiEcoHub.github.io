@@ -99,7 +99,7 @@ footer {
 .social-icon.linkedin a {
    /* Set the color for LinkedIn */
     background-color: #0073b1;
-    font: white;
+    color: white;
     
 }
 
@@ -233,13 +233,3 @@ footer {
     opacity: 0.7;
   }
   
-  /* Set a specific color for each brand */
-  
-  /* Facebook */
-
-  
-   /* Facebook 
-   .fa-facebook {
-    background: #3b4698;
-    color: rgb(255, 255, 255);
-  }*/
