@@ -292,3 +292,39 @@ footer {
    display: inline;
 }
 
+
+/* Your existing CSS */
+
+.logo {
+    float: left; /* Float the logo to the left */
+    margin-right: 20px; /* Add some margin to separate the logo from the navigation */
+}
+
+.logo-img {
+    max-width: 50px;
+    height: auto;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav li a {
+    color: #fff;
+    display: inline;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 16px; /* Adjust the font size as needed */
+    text-transform: uppercase;
+    margin-right: 20px; /* Add margin between navigation items */
+}
+
+/* Your other CSS styles */
+
+
