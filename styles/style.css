@@ -314,7 +314,7 @@ footer {
 }
 
 .nav li a {
-    color: #fff;
+    color: rgb(11, 10, 10)
     display: inline;
     font-family: 'Raleway', sans-serif; /* Example font */
     font-weight: 600; /* Example font weight */
@@ -332,13 +332,7 @@ footer {
     align-items: center; /* Align items vertically */
 }
 
-.logo {
-    /* Your logo styles */
-}
 
-.nav {
-    /* Your navigation styles */
-}
 
 .search-box {
     /* Adjust search box styles */
