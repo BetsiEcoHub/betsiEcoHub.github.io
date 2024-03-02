@@ -107,7 +107,7 @@ footer {
 .social-icon.telegram a {
     /* Set the color for Telegram */
     background-color: #0073b1;
-    font: white;
+    color: white;
 }
 
 /* Email icon */
