@@ -35,3 +35,11 @@ function appendMessage(sender, message) {
     // Scroll to bottom of chat log
     chatLog.scrollTop = chatLog.scrollHeight;
 }
+
+function openForm() {
+    document.getElementById("myForm").style.display = "block";
+  }
+  
+  function closeForm() {
+    document.getElementById("myForm").style.display = "none";
+  }
