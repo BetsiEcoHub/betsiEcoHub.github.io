@@ -96,12 +96,7 @@ footer {
   }
 
 /* LinkedIn icon */
-.social-icon.linkedin a {
-   /* Set the color for LinkedIn */
-    background-color: #094f75;
-    color: white;
-    
-}
+
 
 .fa-linkedin {
     background: #055e6a;
