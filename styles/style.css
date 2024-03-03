@@ -103,6 +103,12 @@ footer {
     
 }
 
+.fa-linkedin {
+    background: #055e6a;
+    color: white;
+  }
+
+
 /* Telegram icon */
 .social-icon.telegram a {
     /* Set the color for Telegram */
